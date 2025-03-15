@@ -19,6 +19,7 @@ return {
         "emmet-ls",
         "html-lsp",
         "css-lsp",
+        "pyright",
       },
     },
   },

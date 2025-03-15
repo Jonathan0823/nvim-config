@@ -20,6 +20,7 @@ return {
         "go",
         "css",
         "prisma",
+        "php",
       },
     },
   },
