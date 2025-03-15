@@ -11,6 +11,10 @@ keymap.set("i", "<C-BS>", "<C-w>", opts)
 
 keymap.set("n", "x", '"_x')
 
+-- scroll
+keymap.set("n", "<C-u>", "<C-u>zz", opts)
+keymap.set("n", "<C-d>", "<C-d>zz", opts)
+
 -- Increment/decrement
 keymap.set("n", "+", "<C-a>")
 keymap.set("n", "-", "<C-x>")
