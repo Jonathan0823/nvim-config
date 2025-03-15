@@ -15,4 +15,12 @@ return {
 
   -- cursor animation
   { "sphamba/smear-cursor.nvim", opts = {} },
+
+  -- remove scroll animattion
+  {
+    "snacks.nvim",
+    opts = {
+      scroll = { enabled = false },
+    },
+  },
 }
