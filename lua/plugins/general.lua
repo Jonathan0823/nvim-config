@@ -1,4 +1,5 @@
 return {
+  -- remove the "No information available" message from noice
   {
     "folke/noice.nvim",
     opts = function(_, opts)
@@ -11,4 +12,7 @@ return {
       })
     end,
   },
+
+  -- cursor animation
+  { "sphamba/smear-cursor.nvim", opts = {} },
 }
