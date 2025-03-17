@@ -9,7 +9,7 @@ return {
         { section = "startup" },
         {
           section = "terminal",
-          cmd = "ascii-image-converter C:\\ascii-image-converter_Windows_amd64_64bit\\suismug.jpg -C",
+          cmd = "ascii-image-converter C:\\ascii-image-converter_Windows_amd64_64bit\\sui1.png -C",
           random = 10,
           pane = 2,
           indent = 4,
