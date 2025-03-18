@@ -1,4 +1,7 @@
 return {
+  -- github copilot
+  { "github/copilot.vim" },
+
   -- remove the "No information available" message from noice
   {
     "folke/noice.nvim",
