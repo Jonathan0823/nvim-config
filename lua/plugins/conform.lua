@@ -14,7 +14,7 @@ return {
         ["yaml"] = { "prettierd" },
         ["markdown"] = { "prettierd" },
         ["lua"] = { "lua-format" },
-        ["python"] = { "black" },
+        ["python"] = { "ruff", "black" },
         ["sh"] = { "shfmt" },
         ["go"] = { "gofmt" },
         ["rust"] = { "rustfmt" },
