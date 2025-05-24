@@ -23,6 +23,7 @@ return {
         "black",
         "python-lsp-server",
         "ruff",
+        "intelephense",
       },
     },
   },
