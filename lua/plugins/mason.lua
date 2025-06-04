@@ -10,7 +10,6 @@ return {
         "flake8",
         "lua-language-server",
         "tailwindcss-language-server",
-        "eslint-lsp",
         "json-lsp",
         "prettierd",
         "gopls",
