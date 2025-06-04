@@ -28,6 +28,17 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
+        vtsls = {
+          settings = {
+            typescript = {
+              preferences = {
+                includeCompletionsForModuleExports = true,
+                includeCompletionsForImportStatements = true,
+                importModuleSpecifier = "non-relative",
+              },
+            },
+          },
+        },
         tsserver = {
           keys = {
             { "<leader>co", "<cmd>TypescriptOrganizeImports<CR>", desc = "Organize Imports" },
