@@ -22,6 +22,7 @@ return {
         "python-lsp-server",
         "ruff",
         "intelephense",
+        "php-cs-fixer",
         "vtsls",
         "vue-language-server",
       },

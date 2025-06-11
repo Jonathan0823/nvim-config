@@ -23,7 +23,22 @@ return {
         ["cpp"] = { "clang-format" },
         ["csharp"] = { "omnisharp" },
         ["elixir"] = { "mix" },
+        ["php"] = { "php-cs-fixer" },
       },
+      formatters = {
+        ["php-cs-fixer"] = {
+          command = "php-cs-fixer",
+          args = {
+            "fix",
+            "--using-cache=no",
+            "--quiet",
+            "--rules=@PSR12",
+            "--no-interaction",
+            "$FILENAME",
+          },
+          stdin = false,
+        },
+      }
     },
   },
 }
