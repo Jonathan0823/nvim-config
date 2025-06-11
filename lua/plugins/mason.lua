@@ -23,6 +23,7 @@ return {
         "ruff",
         "intelephense",
         "php-cs-fixer",
+        "phpcs",
         "vtsls",
         "vue-language-server",
       },
