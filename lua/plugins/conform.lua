@@ -16,7 +16,6 @@ return {
         ["lua"] = { "lua-format" },
         ["python"] = { "ruff", "black" },
         ["sh"] = { "shfmt" },
-        ["go"] = { "gofmt" },
         ["rust"] = { "rustfmt" },
         ["java"] = { "google-java-format" },
         ["c"] = { "clang-format" },
