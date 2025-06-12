@@ -67,6 +67,9 @@ return {
             },
           },
         },
+        emmet_ls = {
+          filetypes = { "html", "css", "php", "javascriptreact", "typescriptreact" },
+        },
       },
     },
   }
