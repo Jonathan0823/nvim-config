@@ -106,9 +106,8 @@ Custom keybindings are defined in `lua/config/keymaps.lua`.
 
 - [Neovim](https://neovim.io/) >= **0.9.0** (needs to be built with **LuaJIT**)
 - [Git](https://git-scm.com/downloads) >= **2.19.0** (for partial clones support)
-- [LazyGit](https://github.com/jesseduffield/lazygit) (for git integration)
+- [lazygit](https://github.com/jesseduffield/lazygit) (for git integration)
 - a [Nerd Font](https://www.nerdfonts.com/)(v3.0 or greater) **(optional, but needed to display some icons)**
-- [lazygit](https://github.com/jesseduffield/lazygit) **(optional)**
 - a **C** compiler for `nvim-treesitter`. See [requirements](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
 - **curl** for blink.cmp **(completion engine)**
 - [Node.js](https://nodejs.org/en/download) for LSP servers and tools (v18 or greater)
