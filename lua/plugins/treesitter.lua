@@ -39,12 +39,6 @@ return {
             },
           },
         },
-        tsserver = {
-          keys = {
-            { "<leader>co", "<cmd>TypescriptOrganizeImports<CR>", desc = "Organize Imports" },
-            { "<leader>cR", "<cmd>TypescriptRenameFile<CR>",      desc = "Rename File" },
-          },
-        },
         pylsp = {
           settings = {
             pylsp = {
@@ -68,7 +62,7 @@ return {
           },
         },
         emmet_ls = {
-          filetypes = { "html", "css", "php" },
+          filetypes = { 'html', 'css', 'php', 'typescriptreact', 'javascriptreact' },
         },
       },
     },
