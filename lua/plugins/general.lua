@@ -1,12 +1,12 @@
 return {
   -- github copilot
-  -- { "github/copilot.vim" },
+  { "github/copilot.vim" },
 
   -- windsurf.nvim
-  {
-    'Exafunction/windsurf.vim',
-    event = 'BufEnter'
-  },
+  -- {
+  --   'Exafunction/windsurf.vim',
+  --   event = 'BufEnter'
+  -- },
 
   -- remove the "No information available" message from noice
   {
