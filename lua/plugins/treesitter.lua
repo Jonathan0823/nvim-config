@@ -21,6 +21,7 @@ return {
         "css",
         "prisma",
         "php",
+        "c",
       },
     },
   },
