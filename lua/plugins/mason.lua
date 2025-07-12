@@ -26,6 +26,7 @@ return {
         "phpcs",
         "vtsls",
         "vue-language-server",
+        "clangd",
       },
     },
   },
