@@ -22,6 +22,7 @@ return {
         "prisma",
         "php",
         "c",
+        "dart",
       },
     },
   },
