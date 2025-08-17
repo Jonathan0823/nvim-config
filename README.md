@@ -89,6 +89,7 @@ LazyVim will handle plugin installation automatically on first launch.
 - JSON
 - Go
 - PHP
+- Dart && Flutter
 - Vue.js
 - React.js
 - Prettier
