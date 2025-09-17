@@ -23,6 +23,7 @@ return {
         "php",
         "c",
         "dart",
+        "rust",
       },
     },
   },
