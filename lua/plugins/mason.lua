@@ -27,6 +27,7 @@ return {
         "vtsls",
         "vue-language-server",
         "clangd",
+        "rust-analyzer",
       },
     },
   },
