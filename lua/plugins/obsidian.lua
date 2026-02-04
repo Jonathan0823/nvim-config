@@ -12,7 +12,7 @@ return {
     workspaces = {
       {
         name = "home",
-        path = "~/coding/vault/",
+        path = os.getenv("OBSIDIAN_VAULT_PATH") or vim.fn.expand("~/obsidian-vault/"),
       },
     },
     completion = {
