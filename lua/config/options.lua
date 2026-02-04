@@ -5,3 +5,4 @@
 vim.o.guifont = "JetBrainsMono Nerd Font Mono:h13"
 vim.opt.wrap = false
 vim.opt.linebreak = true
+vim.o.clipboard = "unnamedplus"
