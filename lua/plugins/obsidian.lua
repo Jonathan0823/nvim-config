@@ -12,7 +12,13 @@ return {
     workspaces = {
       {
         name = "home",
-        path = os.getenv("OBSIDIAN_VAULT_PATH") or vim.fn.expand("~/obsidian-vault/"),
+        path = (function()
+          local path = os.getenv("OBSIDIAN_VAULT_PATH")
+          if path then
+            return vim.fs.normalize(path)
+          end
+          return vim.fs.normalize("~/obsidian-vault/")
+        end)(),
       },
     },
     completion = {
