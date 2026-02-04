@@ -79,6 +79,26 @@ LazyVim will handle plugin installation automatically on first launch.
 - 📂 File explorer
 - 🔍 Fuzzy finder for files, buffers, and more
 
+## 📂 Obsidian Vault Integration
+
+This config includes **obsidian.nvim** for seamless Obsidian note-taking within Neovim.
+
+### Setup
+
+By default, it looks for an Obsidian vault at `~/obsidian-vault/`. To use your own vault location, set the environment variable:
+
+```bash
+# Add to your .bashrc or .zshrc
+export OBSIDIAN_VAULT_PATH="/path/to/your/vault"
+```
+
+### Features
+
+- Obsidian vault file navigation
+- Note creation and editing
+- Wiki-style link completion
+- Markdown preview integration
+
 ## 🌍 Configured LSP Servers
 
 - JavaScript/TypeScript
