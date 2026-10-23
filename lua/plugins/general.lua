@@ -1,7 +1,4 @@
 return {
-  -- github copilot
-  { "github/copilot.vim" },
-
   -- windsurf.nvim
   -- {
   --   'Exafunction/windsurf.vim',
