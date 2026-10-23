@@ -26,7 +26,7 @@ return {
   {
     "sphamba/smear-cursor.nvim",
     opts = {
-      cursor_color = "#ff4000",
+      cursor_color = "#9fc6f5",
       particles_enabled = true,
       stiffness = 0.5,
       trailing_stiffness = 0.2,
@@ -35,7 +35,7 @@ return {
       gradient_exponent = 0,
       gamma = 1,
       never_draw_over_target = true, -- if you want to actually see under the cursor
-      hide_target_hack = true,    -- same
+      hide_target_hack = true,       -- same
       particle_spread = 1,
       particles_per_second = 500,
       particles_per_length = 50,
